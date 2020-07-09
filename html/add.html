@@ -1,0 +1,42 @@
+<html>
+
+<head>
+<i><center><h1><i>ADD BOOKS</i><h1></center></i>
+</head>
+<link rel="shortcut icon" href="library.ico">
+<link rel="stylesheet"  href="css12.css">
+<script src="issue.js" type="text/javascript"></script>
+<body onload="alert('add books form')">
+<center><body>
+<h1>please enter search criteria to add a book</h1>
+book id:<input type="number"   maxlength="5" placeholder="bookid" required ><br>
+Book category:<select name="maths"><option value="a">MATHEMATICS</option>
+<option value="b">MECHANICS</option>
+<option value="c">PHYSICS</option>
+</select><br><br>
+Book title:<select name="lasers"><option value="a1">lasers</option>
+<option value="a2">waves</option>
+<option value="a3">electromagnetism</option>
+<option value="a5">calculus</option>
+<option value="a4">statistics</option>
+<option value="a6">vector algebra</option>
+<option value="a7">advanced engineering mathematics</option>
+</select><br><br>
+
+
+
+book author:<input type="text"  placeholder="book author" required ><br>
+book publisher:<input type="text"  placeholder="book publisher" required ><br>
+book description<textarea rows="5" cols="5"></textarea><br><br><br>
+
+<input  type="image" name="imagebutton" src="click.JPG" onclick="check(this.form)">
+<script>
+
+
+function check(form)
+{
+window.open("project.html");
+}
+</script>
+</body>
+</html>
